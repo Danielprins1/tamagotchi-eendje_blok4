@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    height: 100vh; 
+    position: relative;
+}
+#VoedingBar {
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30%; 
+    border-radius: 10px;
+    box-shadow: 0 3px 3px -5px #000000, 0 2px 5px #0000003b;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.achtergrond img{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: -1; 
+    width:100%;
+}
+
+.Alle_eenden {
+    position: absolute;
+    top: 25%;
+    left: 35%;
+}
+
+.eend {
+    position: absolute;
+    object-fit: cover; 
+}
+
+.knoppen img {
+    width: 150px; 
+    height: auto;
+    margin-right: 100px; 
+    position: fixed;
+    top: 40%;
+    left: 100px; 
+    margin-bottom: 10px;
+}
+
+.knoppen {
+    position: absolute;
+}
+
